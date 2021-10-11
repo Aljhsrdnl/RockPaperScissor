@@ -1,0 +1,109 @@
+/*#1b262c
+0f4c75
+3282b8
+bbe1fa
+*/
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #1b262c;
+    margin:0;
+    padding:0;
+    color: white;
+}
+
+header {
+    background-color: white;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    padding:15px;
+    color:black;
+}
+
+.score-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+#display {
+    padding:20px;
+    border: 2px solid white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+#user {
+    background-color: #bbe1fa;
+    color:black;
+    padding: 4px 6px;
+    position: relative;
+    left: 15px;
+}
+#comp {
+    background-color: #bbe1fa;
+    color:black;
+    padding: 4px 6px;
+    position: relative;
+    right:15px;
+}
+
+#message {
+    text-align: center;
+    font-size: 25px;
+}
+
+.choices {
+    display: flex;
+    justify-content:center;
+}
+p  {
+    font-size: 45px;
+    padding:5px;
+    text-align: center;
+    display: inline-block;
+    border: 2px solid #3282b8;
+    border-radius: 50%;
+    width:70px;
+    height:70px;
+    background-color:transparent;
+    transition: background-color 0.5s ease, font-size 0.5s ease;
+    margin:20px;
+    cursor: pointer;
+}
+#scissor {
+    transform: rotate(-90deg) ;
+}
+p:hover {
+    background-color: #bbe1fa;
+    font-size:50px;
+}
+
+#yourMove {
+    text-align: center;
+    font-size: 18px;
+}
+
+.green-glow {
+    border: 2px solid #1c9d7f;
+    box-shadow: 0 0 10px #33945f;
+    background-color: #33945f;
+}
+
+.red-glow {
+    border: 2px solid #f05260;
+    box-shadow: 0 0 10px #f05260;
+    background-color: #f05260;
+}
+
+.gray-glow {
+    border: 2px solid #a8a8a8;
+    box-shadow: 0 0 10px #a8a8a8;
+    background-color: #a8a8a8;
+}
